@@ -28,8 +28,9 @@ const router = useRouter();
 const menuItems = ref([
   { label: "Accueil", page: "Home" },
   { label: "Trombi", page: "Trombi" },
-  { label: "Evenements", page: "Event" },
-]);
+  { label: "Évenements", page: "Event" },
+  { label: "Défis", page: "Defis" },
+]); 
 
 // Navigation avec Vue Router
 const navigateTo = (page) => {
