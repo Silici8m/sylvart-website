@@ -1,0 +1,52 @@
+{
+	
+	"SoireeLille":{
+		"Adresse":["41 Rue de Puebla","32 Rue Masséna"],
+		"Horaires": "20h00 00h00",
+		"Date":"Vendredi 28 mars 2025",
+		"Activités":["les loups garous ont soif","La renarde debarque"],
+		"Description": [" "," "]
+		},
+	"Hotline": {
+		"Adresse": "Tout Lille !",
+		"Horaires": "14h00 18h00",
+		"Date": "Dimanche 30 mars",
+		"Activités": ["Danse de la forêt","Concert","Partie de carte","Petite Plante","Ménage de druide","Shooting photo forestier", "Service Couture","Nourriture"],
+		"Description": [" "," "]
+	},
+	"Soireefoyer": {
+		"Adresse": "Notre bon vieux foyer ! ",
+		"Horaires": "20h00 00h00",
+		"Date":"Samedi 30 Mars",
+		"Activités":" ",
+		"Description":" "
+	},
+	"Aprem à la rez": {
+		"Adresse": "Notre Forteresse, la residence Leonard de Vinci",
+		"Horaires": "14h00 18h00",
+		"Date": "Jeudi 27 mars",
+		"Activités": " ",
+		"Description":" "	
+	},
+	"Fin d'aprem à la rez": {
+		"Adresse": "Notre Forteresse, la residence Leonard de Vinci !",
+		"Horaires":"17h30 19h30 ",
+		"Date":"lundi 31 mars",
+		"Activités":"",
+		"Description":""
+	},
+	"PetitDejeunerLivre":{
+		"Adresse":"Tout Lille !",
+		"Horaires":"7h30 10h30",
+		"Date":"Vendredi 28 mars",
+		"Activités":"",
+		"Description":""
+	},
+	"PetitDejeuner":{
+		"Adresse":" La Rez, Centrale",
+		"Horaires":"7h30 10h30",
+		"Date": "lundi 31 Mars",
+		"Activités": "",
+		"Description": ""
+	}
+}
