@@ -1,0 +1,48 @@
+{
+  "poles": [
+    {
+      "nom": "Bureau",
+      "membres": [
+        {"trigramme": "VGR", "prenom": "Valentin", "nom": "Grégoire", "surnom": "Valentement", "role": "Président"},
+        {"trigramme": "EZH", "prenom": "Esther", "nom": "Zhou", "surnom": "str", "role": "Trésorière"},
+        {"trigramme": "MLA", "prenom": "Mathieu", "nom": "Landes", "surnom": "L'Aigreur", "role": "Secrétaire"},
+        {"trigramme": "CRI", "prenom": "Candice", "nom": "Rivière", "surnom": "", "role": "Vice-présidente externe"},
+        {"trigramme": "APE", "prenom": "Amélie", "nom": "Petit", "surnom": "La ch'ti", "role": "Vice-présidente interne"}
+      ]
+    },
+    {
+      "nom": "Pôle Event",
+      "membres": [
+        {"trigramme": "LLE", "prenom": "Lucile", "nom": "Leveillé-Nizerolle", "surnom": "", "role": "Respo Event"},
+        {"trigramme": "TST", "prenom": "Thomas", "nom": "Steiger", "surnom": "", "role": "Responsable Logistique"},
+        {"trigramme": "BDE", "prenom": "Baptiste", "nom": "Devaux", "surnom": "", "role": "Respo DD"},
+        {"trigramme": "MCA", "prenom": "Marie", "nom": "Cardinal", "surnom": "Zouzou", "role": ""},
+        {"trigramme": "MRA", "prenom": "Marie-Amélie", "nom": "Rochna-Dumont", "surnom": "Loulou", "role": ""},
+        {"trigramme": "SCA", "prenom": "Simon", "nom": "Cazals", "surnom": "Le sudiste", "role": ""},
+        {"trigramme": "TLA", "prenom": "Thomas", "nom": "Lagarde", "surnom": "", "role": ""},
+        {"trigramme": "ABO", "prenom": "Antoine", "nom": "Bonnefoy", "surnom": "Tchou Tchou", "role": ""}
+      ]
+    },
+    {
+      "nom": "Pôle Communication",
+      "membres": [
+        {"trigramme": "LBA", "prenom": "Louise", "nom": "Babonneau", "surnom": "La Terrible", "role": "Respo Comm"},
+        {"trigramme": "ACA", "prenom": "Alexiane", "nom": "Cadoux", "surnom": "Femme forte", "role": ""},
+        {"trigramme": "EDA", "prenom": "Élise", "nom": "D'Andrea", "surnom": "Espionne rings", "role": ""},
+        {"trigramme": "JCH", "prenom": "Jiawen", "nom": "Chen", "surnom": "", "role": ""},
+        {"trigramme": "LRI", "prenom": "Louis", "nom": "Riquelme", "surnom": "Chef", "role": "goodies"},
+        {"trigramme": "NDR", "prenom": "Nils", "nom": "Derouet", "surnom": "ABBA Bravo", "role": "Vice-Trésorier"},
+        {"trigramme": "VFO", "prenom": "Victor", "nom": "Forcioli", "surnom": "Lulu 23", "role": "web"},
+        {"trigramme": "YCA", "prenom": "Yuxin", "nom": "Cao", "surnom": "", "role": ""}
+      ]
+    },
+    {
+      "nom": "Pôle Démarchage",
+      "membres": [
+        {"trigramme": "ADE", "prenom": "Arthaud", "nom": "De Germiny", "surnom": "", "role": "Respo Dem"},
+        {"trigramme": "NVA", "prenom": "Nicolas", "nom": "Vannereux", "surnom": "Rudolphe", "role": ""},
+        {"trigramme": "MHE", "prenom": "Maxence", "nom": "Heurlier", "surnom": "", "role": ""}
+      ]
+    }
+  ]
+}
