@@ -1,0 +1,79 @@
+{
+	"SoireeLille": {
+		"afficher": true,
+		"nom": "Soirée sur Lille",
+		"adresse": "41 Rue de Puebla, 32 Rue Masséna",
+		"horaires": "20h00 00h00",
+		"date": "Vendredi 28 mars",
+		"activites": "les loups garous ont soif, La renarde debarque",
+		"description": "Soirée dans un bar sur Lille",
+		"prix": "9€",
+		"image":""
+	},
+	"Hotlines": {
+		"afficher": true,
+		"nom": "Hotlines",
+		"adresse": "Tout Lille !",
+		"horaires": "14h00 18h00",
+		"date": "Dimanche 30 mars",
+		"activites": "Danse de la forêt, Concert, Partie de carte, Petite Plante, Ménage de druide, Shooting photo forestier, Service Couture, Nourriture",
+		"description": "Événement regroupant diverses activités à Lille",
+		"prix": "",
+		"image":""
+	},
+	"Soireefoyer": {
+		"afficher": true,
+		"nom": "Soirée au Foyer",
+		"adresse": "Notre bon vieux foyer !",
+		"horaires": "20h00 00h00",
+		"date": "Samedi 30 Mars",
+		"activites": "Soirée dansante, Discussions informelles",
+		"description": "Ambiance conviviale et chaleureuse au foyer.",
+		"prix": "",
+		"image":""
+	},
+	"Aprem à la rez": {
+		"afficher": true,
+		"nom": "Aprem à la Rez",
+		"adresse": "Notre Forteresse, la résidence Leonard de Vinci",
+		"horaires": "14h00 18h00",
+		"date": "Jeudi 27 mars",
+		"activites": "Jeux de société, Discussions",
+		"description": "Une après-midi décontractée avec des jeux.",
+		"prix": "",
+		"image":""
+	},
+	"Fin d'aprem à la rez": {
+		"afficher": true,
+		"nom": "Fin d'aprem à la rez",
+		"adresse": "Notre Forteresse, la résidence Leonard de Vinci !",
+		"horaires": "17h30 19h30",
+		"date": "Lundi 31 mars",
+		"activites": "Moment de détente, Discussions",
+		"description": "Un moment tranquille pour se détendre.",
+		"prix": "",
+		"image":""
+	},
+	"PetitDejeunerLivre": {
+		"afficher": true,
+		"nom": "Petit déjeuner livré",
+		"adresse": "Tout Lille !",
+		"horaires": "7h30 10h30",
+		"date": "Vendredi 28 mars",
+		"activites": "Petit déjeuner livré à domicile",
+		"description": "Un petit déjeuner complet livré chez vous.",
+		"prix": "",
+		"image":""
+	},
+	"PetitDejeuner": {
+		"afficher": true,
+		"nom": "Petit déjeuner",
+		"adresse": "La Rez, Centrale",
+		"horaires": "7h30 10h30",
+		"date": "Lundi 31 Mars",
+		"activites": "Petit déjeuner sur place",
+		"description": "Un petit déjeuner offert à la résidence.",
+		"prix": "",
+		"image":""
+	}
+}

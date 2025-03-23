@@ -1,29 +1,33 @@
 <template>
-    <div class="event-box">
+    <div class="event-box" v-if="props.title">
         <div class="event-header">
             <h2 class="event-title">{{ props.title }}</h2>
-            <p class="event-description">{{ props.description }}</p>
+            <p v-if="props.description && props.description.trim() !== ''" class="event-description">{{ props.description }}</p>
         </div>
         <div class="event-body">
             <div class="event-info">
-                <div class="event-detail">
+                <div v-if="props.date && props.date.trim() !== ''" class="event-detail">
                     <i class="icon-calendar"></i>
                     <p><strong>Date :</strong> {{ props.date }}</p>
                 </div>
-                <div class="event-detail">
+                <div v-if="props.horaires && props.horaires.trim() !== ''" class="event-detail">
                     <i class="icon-clock"></i>
                     <p><strong>Horaires :</strong> {{ props.horaires }}</p>
                 </div>
-                <div class="event-detail">
+                <div v-if="props.lieu && props.lieu.trim() !== ''" class="event-detail">
                     <i class="icon-location"></i>
                     <p><strong>Lieu :</strong> {{ props.lieu }}</p>
                 </div>
-                <div class="event-detail">
+                <div v-if="props.prix && props.prix.trim() !== ''" class="event-detail">
                     <i class="icon-ticket"></i>
                     <p><strong>Prix :</strong> {{ props.prix }}</p>
                 </div>
+                <div v-if="props.activites && props.activites.trim() !== ''" class="event-detail">
+                    <i class="icon-activity"></i>
+                    <p><strong>Activités :</strong> {{ props.activites }}</p>
+                </div>
             </div>
-            <div class="event-image">
+            <div class="event-image" v-if="props.image && props.image.trim() !== ''">
                 <img :src="props.image" alt="Image de l'événement">
             </div>
         </div>
@@ -36,30 +40,37 @@ import { defineProps } from 'vue';
 const props = defineProps({
     title: {
         type: String,
-        required: true,
-        default: "Nom de l'événement"
+        required: true
     },
     description: {
         type: String,
         required: false,
-        default: "Description de l'événement"
+        default: ""
     },
     date: {
         type: String,
-        required: true
+        required: true,
+        default: ""
     },
     horaires: {
         type: String,
-        required: true
+        required: true,
+        default: ""
     },
     lieu: {
         type: String,
-        required: true
+        required: true,
+        default: ""
     },
     prix: {
         type: String,
-        required: true,
-        default: "Gratuit"
+        required: false,
+        default: ""
+    },
+    activites: {
+        type: String,
+        required: false,
+        default: ""
     },
     image: {
         type: String,
@@ -131,6 +142,7 @@ const props = defineProps({
 .icon-clock::before { content: "⏰"; }
 .icon-location::before { content: "📍"; }
 .icon-ticket::before { content: "🎟️"; }
+.icon-activity::before { content: "🎭"; }
 
 .event-image {
     flex: 1;
