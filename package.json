@@ -22,7 +22,13 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "gifsicle": "^7.0.1",
+    "image-webpack-loader": "^8.1.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "mozjpeg": "^8.0.0",
+    "optipng": "^4.2.0",
+    "pngquant": "^4.2.0"
   },
   "eslintConfig": {
     "root": true,
