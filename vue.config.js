@@ -14,7 +14,7 @@ module.exports = defineConfig({
       .options({
         mozjpeg: {
           progressive: true,
-          quality: 70, // Qualité des images JPEG (vous pouvez ajuster)
+          quality: 50, // Qualité des images JPEG (vous pouvez ajuster)
         },
         optipng: {
           enabled: true,

@@ -13,7 +13,13 @@
             <div class="members-board">
               <div class="member-box" v-for="(member, i) in pole.membres" :key="i">
                 <div class="member-image">
-                  <img :src="getProfileImage(member.trigramme)" alt="portrait">
+                  <img
+                    :src="getProfileImage(member.trigramme).thumbnail"
+                    :data-src="getProfileImage(member.trigramme).fullImage"
+                    @load="loadFullImage"
+                    class="progressive"
+                    alt="portrait"
+                  />
                 </div>
                 <div class="member-description">
                   <p class="member-name">{{ member.prenom }} {{ member.nom }}</p>
@@ -42,16 +48,27 @@ const trombinoscopeData = ref(trombinoscope);
 // Calculer la liste des pôles
 const poles = computed(() => trombinoscopeData.value.poles || []);
 
-
-// Fonction pour obtenir l'URL de l'image du membre en fonction du trigramme
 const getProfileImage = (trigramme) => {
   try {
-    // Essayez de charger l'image avec le trigramme
-    return require(`@/assets/trombi/${trigramme}.jpg`);
+    // Charger d'abord la miniature floue
+    const thumbnail = require(`@/assets/trombi/thumbnails/${trigramme}.jpg`);
+    const fullImage = require(`@/assets/trombi/${trigramme}.jpg`);
+
+    return { thumbnail, fullImage };
   } catch (e) {
-    // Si l'image n'existe pas, renvoyer l'image par défaut
-    return require('@/assets/trombi/profil-vide.png');
+    // Image par défaut en cas d'erreur
+    const defaultThumbnail = require('@/assets/trombi/thumbnails/profil-vide.png');
+    const defaultImage = require('@/assets/trombi/profil-vide.png');
+
+    return { thumbnail: defaultThumbnail, fullImage: defaultImage };
   }
+};
+
+// Fonction pour charger l'image complète une fois que la miniature est chargée
+const loadFullImage = (event) => {
+  const img = event.target;
+  img.src = img.dataset.src; // Remplace le src par l'image complète
+  img.classList.add("loaded"); // Ajoute une classe pour enlever le flou
 };
 </script>
 
@@ -139,5 +156,14 @@ const getProfileImage = (trigramme) => {
 }
 .member-role {
   color: #ffffff;
+}
+
+.progressive {
+  filter: blur(10px);
+  transition: filter 0.5s ease-in-out;
+}
+
+.progressive.loaded {
+  filter: blur(0);
 }
 </style>
