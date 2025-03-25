@@ -1,56 +1,23 @@
 {
-	"SoireeLille": {
+	"GouterLancement": {
 		"afficher": true,
-		"nom": "Soirée sur Lille",
-		"adresse": "41 Rue de Puebla, 32 Rue Masséna",
-		"horaires": "20h00 00h00",
-		"date": "Vendredi 28 mars",
-		"activites": "les loups garous ont soif, La renarde debarque",
-		"description": "Soirée dans un bar sur Lille",
-		"prix": "9€",
-		"image":""
-	},
-	"Hotlines": {
-		"afficher": true,
-		"nom": "Hotlines",
-		"adresse": "Tout Lille !",
-		"horaires": "14h00 18h00",
-		"date": "Dimanche 30 mars",
-		"activites": "Danse de la forêt, Concert, Partie de carte, Petite Plante, Ménage de druide, Shooting photo forestier, Service Couture, Nourriture",
-		"description": "Événement regroupant diverses activités à Lille",
-		"prix": "",
-		"image":""
-	},
-	"Soireefoyer": {
-		"afficher": true,
-		"nom": "Soirée au Foyer",
-		"adresse": "Notre bon vieux foyer !",
-		"horaires": "20h00 00h00",
-		"date": "Samedi 30 Mars",
-		"activites": "Soirée dansante, Discussions informelles",
-		"description": "Ambiance conviviale et chaleureuse au foyer.",
+		"nom": "Gouter de Lancement",
+		"adresse": "Foyer",
+		"horaires": "20h - 22h",
+		"date": "Mercredi 26 mars",
+		"activites": "",
+		"description": "",
 		"prix": "",
 		"image":""
 	},
 	"Aprem à la rez": {
 		"afficher": true,
 		"nom": "Aprem à la Rez",
-		"adresse": "Notre Forteresse, la résidence Leonard de Vinci",
-		"horaires": "14h00 18h00",
+		"adresse": "Rez",
+		"horaires": "14h - 18h",
 		"date": "Jeudi 27 mars",
-		"activites": "Jeux de société, Discussions",
-		"description": "Une après-midi décontractée avec des jeux.",
-		"prix": "",
-		"image":""
-	},
-	"Fin d'aprem à la rez": {
-		"afficher": true,
-		"nom": "Fin d'aprem à la rez",
-		"adresse": "Notre Forteresse, la résidence Leonard de Vinci !",
-		"horaires": "17h30 19h30",
-		"date": "Lundi 31 mars",
-		"activites": "Moment de détente, Discussions",
-		"description": "Un moment tranquille pour se détendre.",
+		"activites": "",
+		"description": "Course d'orientation, Archery Game, Jeux en bois, Mikado géant, balayette rotative, seconde main",
 		"prix": "",
 		"image":""
 	},
@@ -58,22 +25,89 @@
 		"afficher": true,
 		"nom": "Petit déjeuner livré",
 		"adresse": "Tout Lille !",
-		"horaires": "7h30 10h30",
+		"horaires": "7h30 - 10h30",
 		"date": "Vendredi 28 mars",
 		"activites": "Petit déjeuner livré à domicile",
 		"description": "Un petit déjeuner complet livré chez vous.",
 		"prix": "",
 		"image":""
 	},
+	"SoireeLille": {
+		"afficher": true,
+		"nom": "Soirée sur Lille",
+		"adresse": "Bar Full Moon, 41 Rue de Puebla, 59800 Lille",
+		"horaires": "20h - 00h",
+		"date": "Vendredi 28 mars",
+		"activites": "",
+		"description": "Soirée dans au bar Full Moon à Lille",
+		"prix": "",
+		"image":""
+	},
+	"Soireefoyer": {
+		"afficher": true,
+		"nom": "Soirée au Foyer",
+		"adresse": "Foyer",
+		"horaires": "20h - 00h",
+		"date": "Samedi 29 Mars",
+		"activites": "",
+		"description": "20h - 00h au foyer",
+		"prix": "?",
+		"image":""
+	},
+	"Hotlines": {
+		"afficher": true,
+		"nom": "Hotlines",
+		"adresse": "Rez et Lille",
+		"horaires": "14h - 18h",
+		"date": "Dimanche 30 mars",
+		"activites": "",
+		"description": "Livraison à domicile de nourriture et services",
+		"prix": "",
+		"image":""
+	},
 	"PetitDejeuner": {
 		"afficher": true,
 		"nom": "Petit déjeuner",
-		"adresse": "La Rez, Centrale",
-		"horaires": "7h30 10h30",
-		"date": "Lundi 31 Mars",
-		"activites": "Petit déjeuner sur place",
-		"description": "Un petit déjeuner offert à la résidence.",
+		"adresse": "Centrale, ITEEM, ENSCL",
+		"horaires": "7h30 - 10h30",
+		"date": "Jeudi 27 Mars",
+		"activites": "",
+		"description": "Un petit déjeuner offert",
 		"prix": "",
 		"image":""
+	},
+	"TopChef": {
+		"afficher": true,
+		"nom": "Top Chef",
+		"adresse": "Couloir des amphi et cour d'honneur, Centrale",
+		"horaires": "11h30 - 13h30",
+		"date": "Lundi 31 Mars",
+		"activites": "",
+		"description": "",
+		"prix": "",
+		"image":""
+	},
+	"Fin d'aprem à la rez": {
+		"afficher": true,
+		"nom": "Fin d'aprem à la rez",
+		"adresse": "Rez",
+		"horaires": "17h30 - 19h30",
+		"date": "Lundi 31 mars",
+		"activites": "",
+		"description": "Loup garou géant, Seconde main, Lancer de pommes de pain",
+		"prix": "",
+		"image":""
+	},
+	"Repas": {
+		"afficher": true,
+		"nom": "Repas",
+		"adresse": "Centrale",
+		"horaires": "11h30 - 13h30",
+		"date": "Mardi 01 avril",
+		"activites": "",
+		"description": "Un petit déjeuner offert",
+		"prix": "?",
+		"image":""
 	}
+
 }

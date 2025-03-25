@@ -6,9 +6,9 @@
     routeName="Trombi"
   />
   <HomePageComponent 
-    title="Evènements"
-    subtext="Evenements des campagnes"
-    routeName="Event" 
+    title="Hotlines"
+    subtext="Lien vers le forms de commande"
+    routeName="Hotlines" 
   />
   <HomePageComponent
     title="Hotlines"

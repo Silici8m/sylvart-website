@@ -87,7 +87,7 @@ const props = defineProps({
     background: linear-gradient(145deg, rgba(52, 94, 78, 0.8), rgba(107, 162, 125, 0.5));
     border: 1.5px solid rgba(255, 255, 255, 0.655);
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 1rem;
     margin: 1rem 2rem;
     backdrop-filter: blur(4px);
     box-shadow: 0 4px 20px rgba(0, 12, 6, 0.2);
@@ -100,19 +100,19 @@ const props = defineProps({
 
 .event-header {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .event-title {
     color: #b3c775;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     margin: 0;
 }
 
 .event-description {
     color: #dce9dc;
-    font-size: 1rem;
-    line-height: 1.4;
+    font-size: 0.8rem;
+    line-height: 1;
     margin: 0.5rem 0;
 }
 
@@ -132,6 +132,7 @@ const props = defineProps({
 }
 
 .event-detail {
+    font-size: 0.8rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;

@@ -14,8 +14,8 @@
               <div class="member-box" v-for="(member, i) in pole.membres" :key="i">
                 <div class="member-image">
                   <img
-                    :src="getProfileImage(member.trigramme).thumbnail"
-                    :data-src="getProfileImage(member.trigramme).fullImage"
+                    :src="getProfileImage(member.photo).thumbnail"
+                    :data-src="getProfileImage(member.photo).fullImage"
                     @load="loadFullImage"
                     class="progressive"
                     alt="portrait"
@@ -48,11 +48,11 @@ const trombinoscopeData = ref(trombinoscope);
 // Calculer la liste des pôles
 const poles = computed(() => trombinoscopeData.value.poles || []);
 
-const getProfileImage = (trigramme) => {
+const getProfileImage = (fileName) => {
   try {
     // Charger d'abord la miniature floue
-    const thumbnail = require(`@/assets/trombi/thumbnails/${trigramme}.jpg`);
-    const fullImage = require(`@/assets/trombi/${trigramme}.jpg`);
+    const thumbnail = require(`@/assets/trombi/thumbnails/${fileName}`);
+    const fullImage = require(`@/assets/trombi/${fileName}`);
 
     return { thumbnail, fullImage };
   } catch (e) {

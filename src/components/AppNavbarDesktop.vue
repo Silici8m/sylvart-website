@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-container">
       <!-- Logo -->
-      <div class="logo-container">
+      <div @click="navigateTo('Home')" class="logo-container">
         <img src="@/assets/images/logo_sylvart.png" alt="Logo Sylvart" />
         <img src="@/assets/images/nom_sylvart.png" alt="Nom Sylvart" />
       </div>
@@ -26,7 +26,6 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 
 const menuItems = ref([
-  { label: "Accueil", page: "Home" },
   { label: "Trombi", page: "Trombi" },
   { label: "Évenements", page: "Event" },
   { label: "Défis", page: "Defis" },
@@ -42,14 +41,11 @@ const navigateTo = (page) => {
 
 <style scoped>
 
-/* Style de base de la barre de navigation */
 .navbar {
   --bg-color: rgba(0, 0, 0, 0.557);
   backdrop-filter: blur(1px);
-
   box-shadow: 0 0 5px 5px var(--bg-color);
   background-color: var(--bg-color);
-  /* background-image: linear-gradient(to bottom, #0E1A19, #0E3C10); */
 }
 
 .navbar-container {
@@ -63,6 +59,7 @@ const navigateTo = (page) => {
 .logo-container {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .menu-container {
