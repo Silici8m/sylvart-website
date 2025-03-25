@@ -2,7 +2,7 @@
     <div class="content-box">
         <div class="box-header">
             <h2 class="box-title">{{ props.title }}</h2>
-            <p class="box-subtext">{{ props.subtext }}</p>
+            <p v-if="props.subtext != ''" class="box-subtext">{{ props.subtext }}</p>
         </div>
         <button class="box-button" @click="handleClick">{{ props.buttonText }}</button>
    </div>    
@@ -15,12 +15,12 @@ const props = defineProps({
     title: {
         type: String,
         required: true,
-        default: "Titre par défaut"
+        default: ""
     },
     subtext: {
         type: String,
         required: false,
-        default: "Texte par défaut"
+        default: ""
     },
     buttonText: {
         type: String,

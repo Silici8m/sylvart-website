@@ -2,8 +2,7 @@ const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  // publicPath: process.env.NODE_ENV === "production" ? "/sylvart-website/" : "/",
-  publicPath: "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/sylvart-website/" : "/",
   
   // Fusionner avec la configuration de compression des images
   chainWebpack(config) {
