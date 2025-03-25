@@ -37,7 +37,8 @@ const isMenuOpen = ref(false);
 const menuItems = ref([
   { label: "Accueil", page: "Home" },
   { label: "Trombi", page: "Trombi" },
-  { label: "Evenements", page: "Event" },
+  { label: "Évenements", page: "Event" },
+  { label: "Défis", page: "Defis" },
 ]);
 
 // Navigation avec Vue Router
@@ -146,7 +147,7 @@ const toggleMenu = () => {
 }
 
 /* ---- Cacher le nom du logo si l'espace est trop petit ---- */
-@media (max-width: 400px) {
+@media (max-width: 330px) {
   .nom-logo {
     display: none; /* Cache le nom du logo sur petits écrans */
   }

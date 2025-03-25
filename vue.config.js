@@ -2,7 +2,8 @@ const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: process.env.NODE_ENV === "production" ? "/sylvart-website/" : "/",
+  // publicPath: process.env.NODE_ENV === "production" ? "/sylvart-website/" : "/",
+  publicPath: "/",
   
   // Fusionner avec la configuration de compression des images
   chainWebpack(config) {
@@ -21,7 +22,7 @@ module.exports = defineConfig({
           optimizationLevel: 7, // Niveau de compression PNG (0-7)
         },
         pngquant: {
-          quality: [0.6, 0.8], // Compression PNG
+          quality: [0.3, 0.5], // Compression PNG
           speed: 4, // Vitesse de compression (1-10)
         },
         gifsicle: {

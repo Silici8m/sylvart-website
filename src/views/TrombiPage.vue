@@ -139,10 +139,11 @@ const loadFullImage = (event) => {
   align-items: center;
   width: 150px;
   text-align: center;
-  border: 1.5px solid #ffffff;
+  background: linear-gradient(145deg, rgba(52, 94, 78, 0.224), rgba(107, 162, 125, 0.318));
+  border: 1.5px solid rgba(255, 255, 255, 0.75);
   border-radius: 10px;
   padding: 10px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
 }
 .member-image img {
   width: 120px;
