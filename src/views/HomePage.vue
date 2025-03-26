@@ -14,17 +14,19 @@
     title="Evenements"  
     buttonText="Voir" 
     routeName="Event"
+    :imageUrl="'planning_admin.png'"
   />
-  <HomePageComponent 
+  <!-- <HomePageComponent 
     title="Hotlines"
     subtext="Lien vers le forms de commande"
     routeName="Hotlines" 
-  />
+  /> -->
+  <RéseauxSociaux />
 </template>
 
 <script setup>
 import HomePageComponent from '@/components/AppHomePageComponent.vue';
-
+import RéseauxSociaux from '@/components/AppReseauxSociauxComponent.vue';
 </script>
 
 <style scoped>

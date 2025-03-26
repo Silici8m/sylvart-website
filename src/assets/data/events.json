@@ -17,17 +17,17 @@
 		"horaires": "14h - 18h",
 		"date": "Jeudi 27 mars",
 		"activites": "",
-		"description": "Course d'orientation, Archery Game, Jeux en bois, Mikado géant, balayette rotative, seconde main",
+		"description": "Course d'orientation, Archery Game, Jeux en bois, balayette rotative, seconde main",
 		"prix": "",
 		"image":""
 	},
 	"PetitDejeunerLivre": {
 		"afficher": true,
 		"nom": "Petit déjeuner livré",
-		"adresse": "Tout Lille !",
+		"adresse": "Rez, Centrale, ITEEM, ENSCL",
 		"horaires": "7h30 - 10h30",
 		"date": "Vendredi 28 mars",
-		"activites": "Petit déjeuner livré à domicile",
+		"activites": "",
 		"description": "Un petit déjeuner complet livré chez vous.",
 		"prix": "",
 		"image":""
@@ -35,11 +35,11 @@
 	"SoireeLille": {
 		"afficher": true,
 		"nom": "Soirée sur Lille",
-		"adresse": "Bar Full Moon, 41 Rue de Puebla, 59800 Lille",
+		"adresse": "Bar Full Moon, 41 Rue de Puebla, Lille puis La Boucherie 32 Rue Masséna, Lille",
 		"horaires": "20h - 00h",
 		"date": "Vendredi 28 mars",
 		"activites": "",
-		"description": "Soirée dans au bar Full Moon à Lille",
+		"description": "Soirée au bar Full Moon à Lille puis boite La Boucherie",
 		"prix": "",
 		"image":""
 	},
@@ -51,7 +51,7 @@
 		"date": "Samedi 29 Mars",
 		"activites": "",
 		"description": "20h - 00h au foyer",
-		"prix": "?",
+		"prix": "",
 		"image":""
 	},
 	"Hotlines": {
@@ -101,12 +101,12 @@
 	"Repas": {
 		"afficher": true,
 		"nom": "Repas",
-		"adresse": "Centrale",
+		"adresse": "Centrale, ENSCL, ITEEM",
 		"horaires": "11h30 - 13h30",
 		"date": "Mardi 01 avril",
 		"activites": "",
-		"description": "Un petit déjeuner offert",
-		"prix": "?",
+		"description": "",
+		"prix": "3€30 (Plat + Boisson + Dessert) 3€ (plat + Boisson)",
 		"image":""
 	}
 
